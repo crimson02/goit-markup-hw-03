@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework#2</title>
+    <title>Homework#3</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,177 +14,188 @@
   </head>
   <body>
     <!-- Body starts here  -->
-    <header class="header">
-      <nav class="header-navigation">
-        <h4>
-          <a class="header-logo" href="index.html"
-            ><span class="web">WEB</span
-            ><span class="studio-top">STUDIO</span></a
+    <header class="header-page">
+      <div class="header-container container">
+        <nav class="site-nav">
+          <a class="logo link" href="./index.html" lang="en"
+            >Web<span class="header-logo">Studio</span></a
           >
-        </h4>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="link" href="studio.html"> Studio </a>
+          <ul class="nav list">
+            <li class="nav-item">
+              <a class="header-link link current" href="index.html">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a href="portfolio.html" class="header-link link"></a>Portfolio
+            </li>
+            <li class="nav-item">
+              <a href="" class="header-link link"></a>Contacts
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-items list">
+          <li class="contacts-item">
+            <a href="mailto:info#devstudio.com" class="link">info@devstudio</a>
           </li>
-          <li class="header-item">
-            <a class="link" href="portfolio.html"> Portfolio </a>
-          </li>
-          <li class="header-item">
-            <a class="link" href="contact.html"> Contacts </a>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <!-- Separation of Contacts (Email and Contact number) on nav tag -->
-      <ul>
-        <li class="header-item">
-          <a class="contact" href="#">info@devstudio.com </a>
-        </li>
-        <li class="header-item">
-          <a class="contact" href="#">+11 (000) 111-11-11 </a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Main starts here  -->
-    <main class="main-section">
-      <article class="services">
-        <div class="top">
-          <h1>Effective Solutions <br />for Your Business <br /></h1>
-          <button type="button" class="btn">Order Service</button>
+    <main>
+      <section class="hero section">
+        <div class="container">
+          <h1 class="title-hero">
+            Effective Solutions <br />for Your Business
+          </h1>
+          <button type="button" class="button">Order Service</button>
         </div>
-        <section class="main-content">
-          <ul>
-            <li>
-              <h3>Strategy</h3>
+      </section>
+      <!--Hero section-->
+      <section class="feature section">
+        <div class="container">
+          <ul class="features-list list">
+            <li class="features-list-items">
+              <h3 class="features-title">Strstegy</h3>
+              <p class="features-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution
+              </p>
+            </li>
+            <li class="features-list-items">
+              <h3 class="feature-title">Punctuality</h3>
+              <p class="features-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="features-list-items">
+              <h3 class="feature-title">Diligence</h3>
+              <p class="features-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="features-list-items">
+              <h3 class="feature-title">Technologies</h3>
+              <p class="features-text">
+                Design practise focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
             </li>
           </ul>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution
-          </p>
-          <ul>
+        </div>
+      </section>
+      <section class="activity section">
+        <div class="container">
+          <h2 class="activity-title">What are we doing</h2>
+          <ul class="activity-list list">
+            <li class="activity-list-item">
+              <img
+                src="images/img1.jpg"
+                title="Monitor"
+                width="264"
+                height="260"
+                alt="Monitor"
+              />
+            </li>
             <li>
-              <h3>Punctuality</h3>
+              <img
+                src="images/img2.jpg"
+                title="Phones"
+                width="264"
+                height="260"
+                alt="Phones"
+              />
+            </li>
+            <li>
+              <img
+                src="images/img3.jpg"
+                title="Laptop and Phones"
+                width="264"
+                height="260"
+                alt="Laptop and Phones"
+              />
             </li>
           </ul>
-          <p>
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-          <ul>
-            <li>
-              <h3>Diligence</h3>
+        </div>
+      </section>
+      <!-- Team-->
+      <section class="team section">
+        <div class="container">
+          <h2 class="team title">Our Team</h2>
+          <ul class="team-item-list">
+            <li class="team-item">
+              <img
+                src="images/img4.jpg"
+                title="Mark Guerrero"
+                width="264"
+                height="260"
+                alt="Graph"
+              />
+              <div class="team-item-name">
+                <h3 class="name">Mark Guerrero</h3>
+                <p class="position"><span lang="en">Product Designer</span></p>
+              </div>
             </li>
-          </ul>
-          <p>
-            Research and confirm brands that present the strongest digital
-            growth opportunities and minimize risk.
-          </p>
-          <ul>
-            <li>
-              <h3>Technologies</h3>
-            </li>
-          </ul>
-          <p>
-            Design practise focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
-          </p>
-        </section>
-      </article>
-      <h2>What are we doing</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <img
-              src="images/img1.jpg"
-              title="Monitor"
-              width="264"
-              height="260"
-              alt="Monitor"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              src="images/img2.jpg"
-              title="Phones"
-              width="264"
-              height="260"
-              alt="Phones"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              src="images/img3.jpg"
-              title="Laptop and Phones"
-              width="264"
-              height="260"
-              alt="Laptop and Phones"
-            />
-          </a>
-        </li>
-      </ul>
-      <h2>Our Team</h2>
-      <ul>
-        <li>
-          <img
-            src="images/img4.jpg"
-            title="Mark Guerrero"
-            width="264"
-            height="260"
-            alt="Graph"
-          />
-          <h3>Mark Guerrero</h3>
-          <p>Product Designer</p>
-        </li>
 
-        <li>
-          <img
-            src="images/img5.jpg"
-            title="Tom Ford"
-            width="264"
-            height="260"
-            alt="Graph"
-          />
-          <h3>Tom Ford</h3>
-          <p>Frontend Developer</p>
-        </li>
+            <li class="team-item">
+              <img
+                src="images/img5.jpg"
+                title="Tom Ford"
+                width="264"
+                height="260"
+                alt="Graph"
+              />
+              <div class="team-item-name">
+                <h3 class="name">Tom Ford</h3>
+                <p class="position">
+                  <span lang="en">Frontend Developer</span>
+                </p>
+              </div>
+            </li>
 
-        <li>
-          <img
-            src="images/img6.jpg"
-            title="Camila Garcia"
-            width="264"
-            height="260"
-            alt="Graph"
-          />
-          <h3>Camila Garcia</h3>
-          <p>Marketing</p>
-        </li>
+            <li class="team-item">
+              <img
+                src="images/img6.jpg"
+                title="Camila Garcia"
+                width="264"
+                height="260"
+                alt="Graph"
+              />
+              <div class="team-item-name">
+                <h3 class="name">Camila Garcia</h3>
+                <p class="position"><span lang="en">Marketing</span></p>
+              </div>
+            </li>
 
-        <li>
-          <img
-            src="images/img7.jpg"
-            title="Daniel Wilson"
-            width="264"
-            height="260"
-            alt="Graph"
-          />
-          <h3>Daniel Wilson</h3>
-          <p>UI Designer</p>
-        </li>
-      </ul>
-      <!-- Main ends here -->
+            <li class="team-item">
+              <img
+                src="images/img7.jpg"
+                title="Daniel Wilson"
+                width="264"
+                height="260"
+                alt="Graph"
+              />
+              <div class="team-item-name">
+                <h3 class="name">Daniel Wilson</h3>
+                <p class="position"><span lang="en">UI Designer</span></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+    <!-- Main ends here -->
+    <!-- Body ends here -->
     <!-- Footers starts here  -->
-    <footer class="footer">
-      <h4>
-        <a class="footer-logo" href="webstudio"
-          ><span class="web">WEB</span><span class="studio-bot">STUDIO</span></a
-        >
-      </h4>
+    <footer class="footer-page">
+      <div class="container"></div>
+
+      <a href="index.html" class="logo footer-link link"
+        >WEB<span class="footer-logo">STUDIO</span></a
+      >
       <p class="footer">
         Increase the flow of customers and <br />
         sales for your business with digital<br />
