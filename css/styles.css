@@ -3,7 +3,7 @@
   --primary-text-color: #212121;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
-  --secondary-text-color: #757575;
+  --secondary-text-color: #2e2f42;
   --galery-background: #eeeeee;
   --single-background-color: #f5f4fa;
   --link-hover-color: #2196f3;
@@ -56,7 +56,7 @@ img {
   align-items: center;
 }
 .logo {
-  color: var(--accent-color);
+  color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -89,6 +89,9 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.item-studio {
+  color: var(--IRIS, #4d5ae5);
 }
 .site-nav .link:focus,
 .site-nav .link:hover {
@@ -136,7 +139,7 @@ img {
 }
 .hero .button {
   display: inline-block;
-  background-color: var(--link-hover-color);
+  background-color: var(--IRIS, #4d5ae5);
   color: var(--primary-background-color);
   cursor: pointer;
   font-family: inherit;
@@ -194,6 +197,12 @@ img {
 }
 .activity-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activity-list-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .activity-list-item + .activity-list-item {
   margin-left: 30px;
@@ -206,6 +215,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 120px;
 }
 .team-item {
   display: grid;
@@ -222,6 +232,7 @@ img {
 .team-item-name {
   padding-top: 32px;
   padding-bottom: 32px;
+  background-color: var(--primary-background-color);
 }
 .name {
   margin-bottom: 10px;
@@ -240,6 +251,7 @@ img {
 .footer-page {
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 156px;
   background-color: var(--secondary-background-color);
   color: var(--primary-background-color);
   font-weight: 400;
